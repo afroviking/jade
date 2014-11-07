@@ -9,7 +9,7 @@ Single page image courtesy of [unsplash]
 [unsplash]:http://unsplash.com
 
 ===
-The MIT License (MIT)
+##The MIT License (MIT)
 
 Copyright (c) 2014 Mose Adan
 
