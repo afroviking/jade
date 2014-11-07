@@ -1,0 +1,282 @@
+/* Applying transparency to menu */
+
+.header .home-menu {
+    background: transparent !important;
+    top: 15px;
+}
+/* Changing pure css styles */
+
+.pure-menu {
+    border-bottom: none !important;
+}
+.pure-menu a {
+    font-size: 1em;
+    font-family: "SourceSansLight", sans-serif;
+    color: white !important;
+}
+/* This styles the hr lines */
+
+hr {
+    width: 60%;
+    border-top: solid 2px #c7f2ba;
+}
+/* Home menu styles */
+
+.home-menu {
+    position: absolute;
+    display: block;
+    top: 2.5em;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.home-menu a {
+    color: white;
+    font-family: "SourceSansLight", sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.home-menu li a:hover {
+    background: white !important;
+    border: none !important;
+    color: #242424 !important;
+}
+/* This styles the back-to-top button*/
+
+.scroll-to-top {
+    position: fixed;
+    background: url(../images/scroll-to-top.png) no-repeat;
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+    bottom: 1em;
+    right: 1em;
+    padding-right: 1em;
+    display: none;
+    z-index: 9999;
+}
+/*
+ * -- SPLASH STYLES --
+ * This is the splash section that appears on the top of the page.
+ */
+
+.splash-container {
+    background-color: #27b577;
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed !important;
+}
+.splash-container:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 20%;
+}
+.splash {
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+/* This is the main heading on the splash section */
+
+.splash-head {
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    padding: 1em 1.6em;
+    font-weight: 100;
+    line-height: 1em;
+}
+/* This is the subheading on the splash section */
+
+.splash-subhead {
+    color: white;
+    letter-spacing: 0.05em;
+    opacity: 0.8;
+}
+/* This is the splash text styles */
+
+.splash h1 {
+    font-family: "SourceSansBold", sans-serif;
+    font-size: 3em;
+}
+.splash p {
+    font-family: "SourceSansLight", sans-serif;
+    font-size: 1.5em;
+}
+/* Styling pure buttons */
+
+.pure-button {
+    background: #8ed772 !important;
+    color: #fff;
+    box-shadow: 0 6px #33b450;
+    border-radius: 0 0 5px 5px !important;
+}
+/* Hover effect. Change?  */
+
+.pure-button:hover {
+    background-color: #7ed15e !important;
+}
+.pure-button:active {
+    background-color: #7ed15e !important;
+    box-shadow: 0 5px #33b450 !important;
+    transform: translateY(5px) !important;
+}
+/*
+ * -- CONTENT STYLES --
+ * This represents the content area (everything below the splash section)
+ */
+
+.content-wrapper {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    min-height: 12%;
+    z-index: 2;
+    background-color: #f7f7f7;
+    margin-top: 4em!important;
+}
+/* This is the class used for the main content headers (<h2>) */
+
+.content-head {
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    margin: 2em 0 1em;
+    font-size: 2em;
+    font-family: "SourceSansLight", sans-serif;
+    text-align: center;
+    color: #646464;
+    padding-top: 1.5em;
+}
+/* This applies the top style of the about section only to that section */
+
+.content-wrapper >:first-child {
+    margin-top: -4em !important;
+}
+/*This styles the content area*/
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60em;
+    background-color: white;
+    border-radius: 5px;
+}
+/* Styling the texts of the content area */
+
+.content h2 {
+    margin-top: -2.5em;
+    padding-bottom: 2em;
+}
+.content h3 {
+    text-align: center;
+    font-family: "SourceSans", sans-serif;
+    font-size: 1.1;
+    color: #777;
+}
+.content p, li {
+    font-family: "SourceSans", sans-serif;
+    font-size: 1.1em;
+    color: #777;
+}
+.content a {
+    font-family: "SourceSans", sans-serif;
+    font-size: 1.1em;
+    color: #777;
+    text-decoration: underline;
+}
+/* This styles the inner content area of the about section */
+
+.box {
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 1px 0 #777;
+    margin: 0 0 2em 0;
+    padding: 3em;
+}
+/* This applies the rounded style of the about image */
+
+.box img {
+    display: block;
+    margin: 3em 0 3em -3em;
+    position: relative;
+    width: calc(100% + 6em);
+}
+.box:last-child img {
+    border-radius: 0 0 6px 6px;
+    margin-bottom: -3em !important;
+}
+/* This applies the responsive google maps */
+
+.map {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    width: 50%;
+    display: inline-block;
+}
+.map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* This styles the contact form */
+
+.contactus {
+    padding-left: 2em;
+}
+.pure-g {
+    letter-spacing: 0em !important;
+}
+/* This applies a media query for mobile devices on the content area */
+
+@media (max-width: 736px) {
+    .content {
+        width: 100%;
+    }
+    .map {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+        width: 100%;
+        display: inline-block;
+    }
+}
+/* Fonts  */
+
+@font-face {
+    font-family: SourceSansBold;
+    src: url(../fonts/SourceSansPro-Black.otf);
+}
+@font-face {
+    font-family: SourceSans;
+    src: url(../fonts/SourceSansPro-Regular.otf);
+}
+@font-face {
+    font-family: SourceSansLight;
+    src: url(../fonts/SourceSansPro-Light.otf);
+}
+@font-face {
+    font-family: SourceSansSemiBold;
+    src: url(../fonts/SourceSansPro-Semibold.otf);
+}
