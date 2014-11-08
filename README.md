@@ -5,8 +5,11 @@ Jade is a simple single-page layout with icons from [Font Awesome].
 
 Single page image courtesy of [unsplash]
 
+**Demo:** [jade]
+
 [Font Awesome]:http://fortawesome.github.io/Font-Awesome/
 [unsplash]:http://unsplash.com
+[jade]:http://jade.moseadan.com/
 
 
 ##The MIT License (MIT)
