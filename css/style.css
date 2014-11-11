@@ -192,6 +192,8 @@ hr {
     font-family: "SourceSans", sans-serif;
     font-size: 1.1em;
     color: #777;
+    line-height: 1.8em; 
+    letter-spacing: 1px;
 }
 .content a {
     font-family: "SourceSans", sans-serif;
